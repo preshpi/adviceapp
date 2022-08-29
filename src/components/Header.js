@@ -12,7 +12,7 @@ function Header() {
 
         <div className="text-center m-10">
          <h1 className="mt-5 mb-3  text-3xl font-bold tracking-tighter text-center text-blue-800 title-font">We live by the best advices.</h1>
-         <p className="text-2xl font-sans tracking-widest text-blue-500 title-font text-center">Get yours for the day.</p>           
+         <p className="text-x font-sans tracking-widest text-blue-500 title-font text-center">Get yours for the day.</p>           
         </div> 
   
     </div>
