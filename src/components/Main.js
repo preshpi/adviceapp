@@ -28,7 +28,7 @@ function Main() {
   }, [advice]);
 
   return (
-    <div className="flex items-center justify-center m-8 h-80 font-serif">
+    <div className="flex items-center justify-center m-8 font-serif">
         <div className='bg-indigo-800 text-white font-bold rounded-lg border shadow-lg p-10'>
           <p ref={textRef}>{!loading ? advice: "Loading..."}</p>
 
@@ -40,7 +40,7 @@ function Main() {
           <div className="shadow flex text-blue-200 rounded bg-blue-700 py-1 px-1 ">
             <AiFillTwitterCircle className="mt-1 mx-2"/>
           <a href={`https://twitter.com/intent/tweet?text=${advice}`}
-          className="hover:animate-bounce"
+          className="hover:animate-pulse"
           target='_blank'
           rel="noopener noreferrer">
             Tweet
